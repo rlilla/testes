@@ -26,8 +26,5 @@ import sys
 import datalayerprovider.register_provider
 
 if __name__ == '__main__':
-    f=open('usr/teste.txt','w')
-    f.write('teste123')
-    f.close()
     datalayerprovider.register_provider.run()
     
