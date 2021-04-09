@@ -17,7 +17,7 @@ apps:
       - serial-port
 
   provider:
-    command: wrapper/register_node
+    command: $SNAP/usr/bin/python3 $SNAP/main.py
     plugs:
       - network-bind
       - network-status
