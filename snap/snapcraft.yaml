@@ -21,7 +21,7 @@ apps:
     plugs:
       - network-bind
       - network-status
-    daemon: simple
+  #  daemon: simple
 
   #jupyter:
   #  command: jupyter-notebook --allow-root
